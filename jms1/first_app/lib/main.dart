@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of this application.
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'James First App for Flutter',
+      title: 'Flutter Demo',
       theme: new ThemeData(
         // This is the theme of your application.
         //
@@ -17,9 +17,9 @@ class MyApp extends StatelessWidget {
         // "hot reload" (press "r" in the console where you ran "flutter run",
         // or press Run > Flutter Hot Reload in IntelliJ). Notice that the
         // counter didn't reset back to zero; the application is not restarted.
-        primarySwatch: Colors.green
+        primarySwatch: Colors.teal,
       ),
-      home: new MyHomePage(title: 'JAMES APP 1'),
+      home: new MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
